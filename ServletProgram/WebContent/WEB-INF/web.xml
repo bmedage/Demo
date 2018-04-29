@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+    <servlet-name>Number</servlet-name>
+    <servlet-class>RandomNumber</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Number</servlet-name>
+    <url-pattern>/number</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>TablePrint</servlet-name>
+    <servlet-class>TablePrint</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TablePrint</servlet-name>
+    <url-pattern>/TablePrint</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>PageCountServlet</servlet-name>
+    <servlet-class>PageCountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageCountServlet</servlet-name>
+    <url-pattern>/PageCountServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>RefreshTime</servlet-name>
+    <servlet-class>RefreshTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RefreshTime</servlet-name>
+    <url-pattern>/RefreshTime</url-pattern>
+  </servlet-mapping>
+</web-app>
